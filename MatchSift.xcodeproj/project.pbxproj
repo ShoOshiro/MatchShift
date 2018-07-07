@@ -12,9 +12,23 @@
 		430BD84C206E5BB200FAC75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430BD84A206E5BB200FAC75D /* Main.storyboard */; };
 		430BD84E206E5BB200FAC75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430BD84D206E5BB200FAC75D /* Assets.xcassets */; };
 		430BD851206E5BB200FAC75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430BD84F206E5BB200FAC75D /* LaunchScreen.storyboard */; };
+		430BD85A2078C6DC00FAC75D /* SiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BD8582078C6DC00FAC75D /* SiftCollectionViewCell.swift */; };
+		430BD85B2078C6DC00FAC75D /* SiftCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430BD8592078C6DC00FAC75D /* SiftCollectionViewCell.xib */; };
+		430BD85D207CD3B200FAC75D /* StudentInfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BD85C207CD3B200FAC75D /* StudentInfViewController.swift */; };
+		43413AB52098A16B0067A1E8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43413AB42098A16B0067A1E8 /* AddViewController.swift */; };
+		43413AB72098AC240067A1E8 /* TeacherInfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43413AB62098AC240067A1E8 /* TeacherInfViewController.swift */; };
+		43413AB9209D7CD50067A1E8 /* TeacherAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43413AB8209D7CD50067A1E8 /* TeacherAddViewController.swift */; };
+		43413AD920A338CB0067A1E8 /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43413AD820A338CB0067A1E8 /* StudentDetailViewController.swift */; };
+		43413ADB20A338E00067A1E8 /* TeacherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43413ADA20A338E00067A1E8 /* TeacherDetailViewController.swift */; };
+		43413AE120B2AC060067A1E8 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43413AE020B2AC060067A1E8 /* MatchViewController.swift */; };
+		43FE80ED20BDC44900B8B4A1 /* 握手.png in Resources */ = {isa = PBXBuildFile; fileRef = 43FE80EC20BDC44900B8B4A1 /* 握手.png */; };
+		43FE80EF20BDC46200B8B4A1 /* teacher.png in Resources */ = {isa = PBXBuildFile; fileRef = 43FE80EE20BDC46200B8B4A1 /* teacher.png */; };
+		43FE80F120BDC46E00B8B4A1 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = 43FE80F020BDC46E00B8B4A1 /* student.png */; };
+		4E01A47EA0CC46C3C1DB2257 /* Pods_MatchSift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A595DF78AF7C028E20BCEE /* Pods_MatchSift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B6DF28B9A5EA25821D744AC /* Pods-MatchSift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchSift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MatchSift/Pods-MatchSift.release.xcconfig"; sourceTree = "<group>"; };
 		430BD843206E5BB200FAC75D /* MatchSift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchSift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		430BD846206E5BB200FAC75D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		430BD848206E5BB200FAC75D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,20 @@
 		430BD84D206E5BB200FAC75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430BD850206E5BB200FAC75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430BD852206E5BB200FAC75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430BD8582078C6DC00FAC75D /* SiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftCollectionViewCell.swift; sourceTree = "<group>"; };
+		430BD8592078C6DC00FAC75D /* SiftCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SiftCollectionViewCell.xib; sourceTree = "<group>"; };
+		430BD85C207CD3B200FAC75D /* StudentInfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfViewController.swift; sourceTree = "<group>"; };
+		43413AB42098A16B0067A1E8 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		43413AB62098AC240067A1E8 /* TeacherInfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherInfViewController.swift; sourceTree = "<group>"; };
+		43413AB8209D7CD50067A1E8 /* TeacherAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherAddViewController.swift; sourceTree = "<group>"; };
+		43413AD820A338CB0067A1E8 /* StudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
+		43413ADA20A338E00067A1E8 /* TeacherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetailViewController.swift; sourceTree = "<group>"; };
+		43413AE020B2AC060067A1E8 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		43FE80EC20BDC44900B8B4A1 /* 握手.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "握手.png"; sourceTree = "<group>"; };
+		43FE80EE20BDC46200B8B4A1 /* teacher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teacher.png; sourceTree = "<group>"; };
+		43FE80F020BDC46E00B8B4A1 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student.png; sourceTree = "<group>"; };
+		60A595DF78AF7C028E20BCEE /* Pods_MatchSift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchSift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4F0F5D7F24B1C94A615938 /* Pods-MatchSift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchSift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MatchSift/Pods-MatchSift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E01A47EA0CC46C3C1DB2257 /* Pods_MatchSift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29FEFF52B6F672B8711A2A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60A595DF78AF7C028E20BCEE /* Pods_MatchSift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		430BD83A206E5BB200FAC75D = {
 			isa = PBXGroup;
 			children = (
 				430BD845206E5BB200FAC75D /* MatchSift */,
 				430BD844206E5BB200FAC75D /* Products */,
+				CA6E6558EFC0DE5229DB29F5 /* Pods */,
+				29FEFF52B6F672B8711A2A54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,35 @@
 		430BD845206E5BB200FAC75D /* MatchSift */ = {
 			isa = PBXGroup;
 			children = (
+				43FE80F020BDC46E00B8B4A1 /* student.png */,
+				43FE80EC20BDC44900B8B4A1 /* 握手.png */,
+				43FE80EE20BDC46200B8B4A1 /* teacher.png */,
 				430BD846206E5BB200FAC75D /* AppDelegate.swift */,
+				43413AE020B2AC060067A1E8 /* MatchViewController.swift */,
+				43413AB8209D7CD50067A1E8 /* TeacherAddViewController.swift */,
+				43413ADA20A338E00067A1E8 /* TeacherDetailViewController.swift */,
+				43413AD820A338CB0067A1E8 /* StudentDetailViewController.swift */,
+				43413AB62098AC240067A1E8 /* TeacherInfViewController.swift */,
+				43413AB42098A16B0067A1E8 /* AddViewController.swift */,
+				430BD85C207CD3B200FAC75D /* StudentInfViewController.swift */,
 				430BD848206E5BB200FAC75D /* ViewController.swift */,
 				430BD84A206E5BB200FAC75D /* Main.storyboard */,
 				430BD84D206E5BB200FAC75D /* Assets.xcassets */,
 				430BD84F206E5BB200FAC75D /* LaunchScreen.storyboard */,
 				430BD852206E5BB200FAC75D /* Info.plist */,
+				430BD8582078C6DC00FAC75D /* SiftCollectionViewCell.swift */,
+				430BD8592078C6DC00FAC75D /* SiftCollectionViewCell.xib */,
 			);
 			path = MatchSift;
+			sourceTree = "<group>";
+		};
+		CA6E6558EFC0DE5229DB29F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F0F5D7F24B1C94A615938 /* Pods-MatchSift.debug.xcconfig */,
+				2B6DF28B9A5EA25821D744AC /* Pods-MatchSift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 430BD855206E5BB200FAC75D /* Build configuration list for PBXNativeTarget "MatchSift" */;
 			buildPhases = (
+				211F6A1901CABAFB6CC175E6 /* [CP] Check Pods Manifest.lock */,
 				430BD83F206E5BB200FAC75D /* Sources */,
 				430BD840206E5BB200FAC75D /* Frameworks */,
 				430BD841206E5BB200FAC75D /* Resources */,
+				18726F76D26F035E7F2D94E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,21 +185,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FE80ED20BDC44900B8B4A1 /* 握手.png in Resources */,
+				430BD85B2078C6DC00FAC75D /* SiftCollectionViewCell.xib in Resources */,
+				43FE80EF20BDC46200B8B4A1 /* teacher.png in Resources */,
 				430BD851206E5BB200FAC75D /* LaunchScreen.storyboard in Resources */,
 				430BD84E206E5BB200FAC75D /* Assets.xcassets in Resources */,
 				430BD84C206E5BB200FAC75D /* Main.storyboard in Resources */,
+				43FE80F120BDC46E00B8B4A1 /* student.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18726F76D26F035E7F2D94E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MatchSift/Pods-MatchSift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MatchSift/Pods-MatchSift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		211F6A1901CABAFB6CC175E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatchSift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		430BD83F206E5BB200FAC75D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43413AB52098A16B0067A1E8 /* AddViewController.swift in Sources */,
+				430BD85D207CD3B200FAC75D /* StudentInfViewController.swift in Sources */,
 				430BD849206E5BB200FAC75D /* ViewController.swift in Sources */,
+				43413AB72098AC240067A1E8 /* TeacherInfViewController.swift in Sources */,
+				43413AE120B2AC060067A1E8 /* MatchViewController.swift in Sources */,
+				43413AB9209D7CD50067A1E8 /* TeacherAddViewController.swift in Sources */,
+				43413ADB20A338E00067A1E8 /* TeacherDetailViewController.swift in Sources */,
+				430BD85A2078C6DC00FAC75D /* SiftCollectionViewCell.swift in Sources */,
 				430BD847206E5BB200FAC75D /* AppDelegate.swift in Sources */,
+				43413AD920A338CB0067A1E8 /* StudentDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +385,15 @@
 		};
 		430BD856206E5BB200FAC75D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4F0F5D7F24B1C94A615938 /* Pods-MatchSift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5293H5XAC;
 				INFOPLIST_FILE = MatchSift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.geeksalon.MatchSift;
+				PRODUCT_BUNDLE_IDENTIFIER = shota.MatchSift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -286,12 +402,15 @@
 		};
 		430BD857206E5BB200FAC75D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6DF28B9A5EA25821D744AC /* Pods-MatchSift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5293H5XAC;
 				INFOPLIST_FILE = MatchSift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.geeksalon.MatchSift;
+				PRODUCT_BUNDLE_IDENTIFIER = shota.MatchSift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
